@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Home from './components/Home/Home';
 import Login from './pages/Login/Login';
@@ -9,7 +9,7 @@ import NoteContex from './Context/NoteContex';
 import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute';
 
 function App() {
-  const router = createBrowserRouter(
+  const router = createHashRouter(
     [
       {
         path: '',

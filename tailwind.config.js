@@ -8,7 +8,7 @@ export default {
     extend: {},
   },
   plugins: [],
-  base:"/NoteAppp/",
+ 
   darkMode: 'class',
 }
 
